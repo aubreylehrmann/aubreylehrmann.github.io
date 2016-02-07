@@ -1,0 +1,152 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+.navbar-inverse {
+  background-color: #fffaf7;
+  color: #fffaf7;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fffaf7;
+  color: #773300;
+}
+
+.h1 {
+  font-size: 48px;
+}
+
+
+
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fffaf7;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 100px;
+  }
+
+
+
+
+
+
+.btn-default {
+  color: #773300;
+  background-color: #fffaf7;
+  border-color: #e2a06c;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-default:hover {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+
+
+
+
+
+.btn-primary {
+  color: #773300;
+  background-color: #fffaf7;
+  border-color: #e2a06c;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-primary:hover {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #773300;
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #ffebe0;
+  border-color: #e2a06c;
+}
+.btn-primary .badge {
+  color: #ffebe0;
+  background-color: #ffebe0;
+}
