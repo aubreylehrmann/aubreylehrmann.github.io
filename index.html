@@ -9,8 +9,18 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="carousel.css" rel="stylesheet">
 
-        <script src="http://code.jquery.com/jquery-2.1.4.js (Links to an external site.)"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js (Links to an external site.)"></script>
+        <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+
+
+        <script>
+          $(function(){
+            $('#myCarousel').carousel();
+          });
+        </script>
+
 
   </head>
 
@@ -41,10 +51,14 @@
     </nav>
 
 
+
 <!-- Start of Carousel -->
 
 <!-- "Note: If you're viewing this page via a file:// URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules."
 http://getbootstrap.com/examples/carousel/ -->
+
+
+
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -58,7 +72,7 @@ http://getbootstrap.com/examples/carousel/ -->
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" width="100%" src="photos/Greenware_Header.png" alt="First slide">
+          <img class="first-slide" src="photos/Greenware_Header.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Practical Pottery</h1>
@@ -104,6 +118,11 @@ http://getbootstrap.com/examples/carousel/ -->
     </div>
 
 <!-- end of carousel -->
+
+
+
+
+
 
 <!-- start of column section -->
 
