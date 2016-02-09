@@ -7,6 +7,8 @@ $(document).ready(function() {
   $("ol").on("click", ".link-delete", deleteItem);
 });
 
+
+
 // This function prompts the user for a to-do item
 // and then appends it to the existing list of items.
 // It also updates the counter at the top of the screen.
@@ -14,9 +16,9 @@ function addItem() {
   // console.log("Yup!")
   var text = window.prompt("Give Kurt a compliment");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
-  $("ol").append("<li>" + text + " " + delete_link + "</li>");
+  $("ol").append("<wtf><br>" + text + " " + delete_link + "</wtf>");
   // HTML version of above : <li>Watch Hockey <a href="#" class="link-delete">(Delete)</a>
-  var numItems = $("li").length-3;
+  var numItems = $("wtf").length;
   // length is a property
   $(".total").html(numItems + " compliments");
   // total is the class
@@ -48,6 +50,6 @@ function deleteItem(event) {
   $(event.target).parent().remove();
   $(event.target).parent().fadeOut();
 
-  var numItems = $("li").length;
+  var numItems = $("wtf").length;
   $(".total").html(numItems + " compliments");
 }
