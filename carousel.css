@@ -43,8 +43,9 @@ body {
   height: 700px;
   width: 100%;
   margin-bottom: 30px;
-
+  vertical-align: bottom;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -54,6 +55,7 @@ body {
 .carousel .item {
   height: 700px;
   background-color: #777;
+  vertical-align: bottom;
 }
 
 /*  this is the image  */
@@ -63,14 +65,28 @@ body {
   left: 0;
   min-width: 100%;
   width: 100%;
+  vertical-align: bottom;
   /*height: ;*/
+}
+
+div#imgbottom {
+    vertical-align: bottom;
+    height: 700px;
+    width: 100%;
+}
+
+#imgbottom img {
+    vertical-align: bottom;
+    height: 700px;
+    width: 100%;
 }
 
 
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+
+
+
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
